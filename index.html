@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Barzideh - Selected Works</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Portfolio Container -->
+    <div class="portfolio-container">
+        
+        <!-- Page 1 -->
+        <div class="portfolio-page" data-page="1">
+            <img src="images/bowtie clip_01.png" alt="Joshua Barzideh - Selected Works Cover">
+        </div>
+
+        <!-- Page 2 -->
+        <div class="portfolio-page" data-page="2">
+            <img src="images/bowtie clip_02.png" alt="Table of Contents">
+        </div>
+
+        <!-- Page 3 -->
+        <div class="portfolio-page" data-page="3">
+            <img src="images/bowtie clip_03.png" alt="Bowtie Project">
+        </div>
+
+        <!-- Page 4 -->
+        <div class="portfolio-page" data-page="4">
+            <img src="images/bowtie clip_04.png" alt="Bowtie Project Details">
+        </div>
+
+        <!-- Page 5 -->
+        <div class="portfolio-page" data-page="5">
+            <img src="images/bowtie clip_05.png" alt="Bowtie Project Continued">
+        </div>
+
+        <!-- Page 6 - Forest Project (with YouTube link) -->
+        <div class="portfolio-page" data-page="6">
+            <img src="images/bowtie clip_06.png" alt="Forest Project">
+            <!-- Clickable hotspot over QR code in bottom left -->
+            <div class="youtube-hotspot" data-video-id="62AL_IPh8bA" aria-label="Watch Forest Project Video">
+                <svg class="hotspot-border" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="border-rect" x="1" y="1" rx="4" ry="4"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Page 7 - Stitch Project (with YouTube link) -->
+        <div class="portfolio-page" data-page="7">
+            <img src="images/bowtie clip_07.png" alt="Stitch Project">
+            <!-- Clickable hotspot over QR code in bottom left -->
+            <div class="youtube-hotspot" data-video-id="9xRQY97oVTg" aria-label="Watch Stitch Project Video">
+                <svg class="hotspot-border" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="border-rect" x="1" y="1" rx="4" ry="4"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Page 8 -->
+        <div class="portfolio-page" data-page="8">
+            <img src="images/bowtie clip_08.png" alt="Portfolio Page 8">
+        </div>
+
+    </div>
+
+    <!-- YouTube Modal -->
+    <div id="youtube-modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close video">&times;</button>
+            <div class="video-container">
+                <iframe id="youtube-player" 
+                        src="" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
